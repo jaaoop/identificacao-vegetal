@@ -48,13 +48,11 @@
   Para resolver o problema da ausência de um _dataset_ dedicado e com poucas imagens aplicou-se a técnica de _Transfer Learning_, na qual os pesos de uma ou mais camadas de uma rede pré-treinada são utilizados para treinar uma nova rede. A arquitetura escolhida para aplicar o _Tranfer Learning_ é a VGG16, pois apresentou os melhores resultados.
 
   Para o uso da rede com um _dataset_ específico, é necessário fornecer o diretório do _dataset_ a ser usado e o novo diretório para salvar as imagens para o treino e o teste da rede, que é feito de forma automática pelo programa, como nas linhas abaixo:
-  ˋˋˋ
-  old_base_dir= <DATASET_DIR>
-  ˋˋˋ
 
-   ˋˋˋ
-   base_dir= <TRAIN_TEST_DIR>
-   ˋˋˋ
+  
+    old_base_dir= <DATASET_DIR>
+    base_dir= <TRAIN_TEST_DIR>
+  
 
   # Aplicativo rodando a Rede Neural
 
